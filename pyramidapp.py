@@ -3,7 +3,7 @@ from pyramid.response import Response
 
 def hello_world(request):
 	return Response(
-		'Hello world, Pyramid:app!\n',
+		'Hello world, Pyramid:app!\nVersion 2\n',
 		content_type='text/plain',
 		)
 
